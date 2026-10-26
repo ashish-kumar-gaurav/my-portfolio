@@ -178,7 +178,7 @@ li a:hover::before {
 
 .social-links a:hover {
     transform: scale(1.2);
-    color: var(--blue);
+    color:  rgb(0, 157, 255);
 }
 
 
@@ -472,7 +472,7 @@ li a:hover::before {
 }
 
 .contact-socials a:hover {
-    color: var(--blue);
+    color:  rgb(0, 157, 255);
     transform: scale(1.15);
 }
 
