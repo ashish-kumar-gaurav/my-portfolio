@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo"><span>Ashish</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <a href="https://github.com/ashish-kumar-gaurav" target="_blank"><button class="Gitbtn">Github</button></a>
+    </header>
+    <!-- Background Layout Section -->
+    <section class="hero">
+
+        <div class="about-container">
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Ashish Kumar <br>Gaurav</h1>
+                    <span>Frontend Developer</span>
+                </div>
+                 <div class="btn-group">
+                    <a href="./Document/My CV...pdf" class="btn" download>Download CV</a>
+                    <a href="#contact" class="btn">Contact</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/ashish-kumar-gaurav" target="_blank"  rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ashish-kumar-gaurav" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+   <!-- About Section -->
+              <section class="section about" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about-info">
+                <img src="./Images/pic1.jpg.jpeg" alt="Portrait of Ashish Kumar Gaurav" id="pic">
+                <div class="about-card">
+                    <span>About Me</span>
+                    <h4>I like work that is clear, useful and finished properly.</h4>
+                    <p>I'm Ashish Kumar Gaurav, a web developer based in New Delhi. I build websites and web apps, from the first idea to the final result.</p>
+                    <p>I focus on understanding the problem before jumping to solutions. That means asking the right questions, keeping communication simple and delivering on time.</p>
+                    <p>I'm currently open to full-time roles, freelance projects and collaborations. If you have something in mind, I'd be glad to hear about it.</p>
+                </div>
+            </div>
+        </section>
+    <!-- Experience Section -->
+      <section class="section experience" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-info">
+                <div class="grid">
+                    <div class="grid-card">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Frontend Developer</span>
+                        <h3>0 Year</h3>
+                        <p>Building responsive pages with HTML, CSS and JavaScript.</p>
+                    </div>
+                   
+                    <div class="grid-card">
+                        <i class="fa-solid fa-laptop"></i>
+                        <span>Web Developer</span>
+                        <h3>0 Year</h3>
+                        <p>Delivering complete websites that work on every screen.</p>
+                    </div>
+                    <div class="grid-card">
+                        <i class="fa-solid fa-list"></i>
+                        <span>Software Developer</span>
+                        <h3>0 Year</h3>
+                        <p>Writing clean, tested code and using Git every day.</p>
+                    </div>
+                     <div class="grid-card">
+                        <i class="fa-solid fa-file-code"></i>
+                        <span>Backend Developer</span>
+                        <h3>0 Year</h3>
+                        <p>Creating simple APIs and working with databases.</p>
+                    </div>
+                </div>
+                <img src="./Images/pic2.jpg.jpeg" alt="Ashish Kumar Gaurav at work">
+            </div>
+        </section>
+
+
+
+    <!-- Project Section -->
+
+    <section id="project" class="section projects">
+        <h2 class="section-title">Recent Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="./Images/project-1.jpg" alt="">
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis architecto ex repellat
+                    dignissimos illo repudiandae tempora? Aut corporis nam consequuntur doloremque temporibus pdi, voluptas.</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./Images/project-2.jpg" alt="">
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis architecto ex repellat
+                    dignissimos illo repudiandae tempora? Aut corporis nam consequuntur doloremque temporibus pdi, voluptas.</p>
+               <div class="btn-group">
+                        <a href="#" class="btn">Live Demo</a>
+                        <a href="#" class="btn">Github Repo</a>
+                    </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Contact & Footer Section -->
+
+     <section class="section contact" id="contact">
+            <div class="input-box">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="contact-text">Leave your email and I'll get back to you soon.</p>
+                <form class="contact-form" id="contact-form">
+                    <div class="input">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="email" placeholder="example@gmail.com" aria-label="Your email" required>
+                    </div>
+                    <button type="submit" class="btn" id="btn">Submit</button>
+                </form>
+                <p class="form-message" id="form-message" role="status"></p>
+                <div class="contact-socials">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/cutely_ashish_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ashish-kumar-gaurav" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:example@gmail.com" target="_blank"><i class="fa-solid fa-address-book"></i></a>
+                </div>
+            </div>
+        </section>
+
+<!-- footer  -->
+     <footer>
+        <p class="copyright">&copy; <span id="year">2026</span> All Rights Reserved | Ashish Kumar Gaurav</p>
+    </footer>
+
+ <button id="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+ <script src="script.js"></script>
+</body>
+
+</html>
